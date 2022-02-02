@@ -14,17 +14,28 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
 </head>
 
 <body>
-    <main class="main_class">
-        <article>
-            <i class="fas fa-border-all"></i>
-            Speaker View
-        </article>
-        <section class="flex ph_box">
 
+    <!-- SFONDO NERO PAGINA  -->
+    <main class="main_class">
+
+        <!-- BOTTONI ALTI A DESTRA -->
+        <section>
+            <a href="#!" class="speaker_btn">
+                <!-- <div class="speaker_btn"> -->
+                    <i class="fas fa-border-all"></i>
+                    Speaker View
+                <!-- </div> -->
+            </a>
+            <a href="#!" class="speaker_btn">
+                <i class="fas fa-expand-arrows-alt"></i>
+            </a>
+        </section>
+
+        <!-- SEZIONE CENTRALE PAGINA  -->
+        <section class="flex ph_box">
             <div class="ph"></div>
             <div class="ph"></div>
             <div class="ph"></div>
@@ -63,15 +74,18 @@
         </section>
     </main>
 
+    <!-- BOTTOM NAV-BAR -->
     <nav class="flex">
 
+        <!-- LEFT NAV  -->
         <div class="flex left_nav">
-            <i class="fas fa-microphone"><span>microphone</span></i> 
+            <i class="fas fa-microphone"><span>microphone</span></i>
             <i class="fas fa-angle-up"></i>
             <i class="fas fa-video"><span>Stop Video</span></i>
             <i class="fas fa-angle-up"></i>
         </div>
 
+        <!-- CENTRAL NAV  -->
         <div class="flex central_nav">
             <i class="fas fa-user-plus"><span>Invite</span></i>
             <i class="fas fa-users"><span>Manage Partecipants</span></i>
@@ -84,10 +98,10 @@
             <i class="fas fa-ellipsis-h"><span>More</span></i>
         </div>
 
-        <div class="btn">
+        <!-- END MEETING  -->
+        <a href="#!" class="flex btn"> 
             End meeting
-
-        </div>
+        </a>
 
     </nav>
 </body>

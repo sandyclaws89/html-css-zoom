@@ -1,57 +1,63 @@
+
+/* RESET  */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-html{
     font-family: sans-serif;
-    width: 100%;
 }
 
+/* SFONDO E ALTEZZA PAGINA  */
 .main_class{
     background-color: black;
     text-align: right;
-    height: 92vh;
-
-
+    height: 90vh;
 }
 
-article{
-    padding: 1rem;
+/* BOTTONE IN ALTO A DESTRA  */
+.speaker_btn{
+    padding: .3rem;
     color: white;
+    line-height: .5rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: .3rem;
+    background-color: #4a4a4a;
+    border-radius: 8px;
+    margin-right: .3rem;
+    font-size: 1rem;
+    margin-left: -.3rem;
+    text-decoration: none;
 }
 
+/* FLEX  */
 .flex{
     display: flex;
 }
+
+/* FORM PHOTO-BOX  */
 .ph_box{
     margin-top:30px;
     margin-left: 50px;
     margin-right: 50px;
-    display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
-img{
-    background: center;}
-
+/* FORM PHOTO  */
 .ph{
     min-width: 150px;
     width: calc(100%/7);
     height: 150px;
-    background-color: red;
     border: solid black;
     background-size: cover;   
     background-image: url(https://i.picsum.photos/id/316/200/150.jpg?hmac=6BDWvxa-SxGG_hSXn5DVxLTjhT1BZETWRfLlg0kxPO8);
-    
 }
+
 
 nav{
     width: 100%;
     background-color: #222222;
-    height: 8vh;
+    height: 10vh;
     color: white;
     align-items: center;
     justify-content: space-between;
@@ -59,44 +65,52 @@ nav{
 }
 
 .left_nav {
-   font-size: 2.5rem;
+   font-size: 2rem;
    align-items: center;
-   align-items: flex-end;
    /* text-align: center; */
 }
 
+/* I ON LEFTNAV  */
 .left_nav i {
     padding: 1rem;
 }
 
+/* LITTLE ARROW ICON  */
 .fa-angle-up{
     font-size: 1rem;
     align-items: center;
-  
 }
 
+/* GREEN ICON  */
 .fa-share-square{
     color: green;
 }
 
-.fa-share-square + span{
-    color: white;
-}
-
 
 .central_nav{
-    font-size: 2.5rem;
+    font-size: 2rem;
     align-items: center;
-    /* text-align: center; */
 }
 
-
+/* PADDING ICON  */
 .central_nav i {
     padding: 1.2rem;
 }
    
+/* FORM TEXT UNDER THE ICON  */
 span{
     margin-top: .4rem;
     display: block;
     font-size: 1rem;
+    color: white;
+}
+
+/* BUTTON END MEETING  */
+.btn {
+    background-color: #4a4a4a;
+    line-height: 10vh;
+    justify-content: center;
+    color: red;
+    padding: 0 1rem;
+    text-decoration: none;
 }
